@@ -1,4 +1,1 @@
-let { cloneDeep } = require('./src/util/cloneDeep')
-let defaultConfig = require('./stubs/defaultConfig.stub.js')
-
-module.exports = cloneDeep(defaultConfig)
+module.exports = require('./lib/public/default-config').default
